@@ -1,4 +1,4 @@
-var connection = require("../config/connection.js");
+const connection = require("../config/connection.js");
 
 // Helper function for SQL syntax.
 // Let's say we want to pass 3 values into the mySQL query.
@@ -88,6 +88,5 @@ var orm = {
     });
   }
 };
-
 // Export the orm object for the model (cat.js).
 module.exports = orm;
