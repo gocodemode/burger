@@ -1,18 +1,21 @@
 <h1>Eat-da-Burger!</h1>
 
+<h2>Burgers ready to be devoured!</h2>
+
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-      <li>{{this.hbsObject devoured=true}}</li>
+      {{> burgers/burger-block devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
+<h2>Burgers already devoured!</h2>
 
 <ul>
   {{#each burgers}}
     {{#if devoured}}
-      <li>{{this.hbsObject devoured=false}}</li>
+       {{> burgers/burger-block devoured=false}}
     {{/if}}
   {{/each}}
 </ul>
@@ -27,7 +30,7 @@
   </div>
 
   <div class="form-group">
-    <label for="devoured">Devoured?</label><br>
+    <label for="devoured">Devour?</label><br>
     <input type="radio" name="devoured" value="1" checked>Devoured!<br>
     <input type="radio" name="devoured" value="0">Eat the Burger.
   </div>
