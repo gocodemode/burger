@@ -36,14 +36,14 @@ $(function() {
         data: newBurger
       }).then(
         function() {
-          console.log("created new cat");
+          console.log("created new burger");
           // Reload the page to get the updated list
           location.reload();
         }
       );
     });
   
-    $(".delete-cat").on("click", function(event) {
+    $(".delete-burger").on("click", function(event) {
       var id = $(this).data("id");
   
       // Send the DELETE request.
@@ -51,7 +51,7 @@ $(function() {
         type: "DELETE"
       }).then(
         function() {
-          console.log("deleted cat", id);
+          console.log("deleted burger", id);
           // Reload the page to get the updated list
           location.reload();
         }
