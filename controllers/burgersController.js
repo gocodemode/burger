@@ -16,8 +16,7 @@ router.get("/", function(req, res) {
   });
 });
 
-router.post("/api/burgers", function(req, res) {
-  burger.insertOne(req.body.burger_name, function(result) {
+router.post("/api/burgers", function(req, res) { 
     burger.create([
       "burger_name", "devoured"
     ], [
@@ -25,7 +24,7 @@ router.post("/api/burgers", function(req, res) {
     ], function(result) {
     // Send back the ID of the new quote
     res.json({ id: result.insertId });
-  });
+    });
 });
 
 router.put("/api/burgers/:id", function(req, res) {
@@ -33,7 +32,7 @@ router.put("/api/burgers/:id", function(req, res) {
 
   console.log("condition", condition);
 
-  burger.updateOne({
+  burger.update({
     devoured: req.body.devoured
   }, condition, function(result) {
     if (result.changedRows == 0) {
