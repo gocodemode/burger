@@ -1,3 +1,18 @@
-* {
+body {
     color: rgb(3, 194, 252);
 }
+
+h1 {
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+h2 {
+    text-align: center;
+}
+
