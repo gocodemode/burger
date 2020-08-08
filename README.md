@@ -19,7 +19,11 @@
 
 #### [Heroku Deployed Link](https://gregz-burgerz.herokuapp.com/)
 
-#### <iframe src="https://drive.google.com/file/d/1JOsUDsiHzZNAW3YYJdWl2anftm-YK3a8/preview" width="640" height="480"></iframe>
+#### [Video of Website Application](https://drive.google.com/file/d/1JOsUDsiHzZNAW3YYJdWl2anftm-YK3a8/view)
+
+## Website Preview 
+
+#### ![Website Preview](./public/assets/img/Website.png)
 
 ## Contributing
 
