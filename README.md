@@ -1,4 +1,4 @@
-# Burger APp 
+# Burger App 
 
 ## Description 
 ### This is a burger app created with MySQL, Node, Express, Handlebars and an ORM.
@@ -13,15 +13,17 @@
 ## Installation
 
 #### Clone this repository, install necessary npm packages detailed in dependencies found in the package.json file by typing "npm install" in the command line. 
-#### Run "node server.js" in the terminal to get the link to the localhost page. 
+#### Run "npm start" in the terminal to get the link to the localhost page. 
 
 ## Usage 
 
-#### Deployed link to application: https://gregz-burgerz.herokuapp.com/
+#### [Heroku Deployed Link](https://gregz-burgerz.herokuapp.com/)
+
+#### <iframe src="https://drive.google.com/file/d/1JOsUDsiHzZNAW3YYJdWl2anftm-YK3a8/preview" width="640" height="480"></iframe>
 
 ## Contributing
 
-#### Please do not contribute to this project.
+#### Gregory Monroe II
 
 ## Questions
 
